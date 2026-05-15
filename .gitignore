@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+.next/
+out/
+build/
+
+# Environment variables (never commit these)
+.env
+.env*.local
+
+# Vercel
+.vercel/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local development helpers (not for the repo)
+PUSH-TO-GITHUB.bat
+push-to-github.bat
+push-changes.bat
+
+# Release-A scaffold bundle — not source code
+bookshelfiq-release-a/
+bookshelfiq-release-a.zip
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.tsbuildinfo
+next-env.d.ts
