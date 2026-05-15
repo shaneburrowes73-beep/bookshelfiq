@@ -23,6 +23,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
     const stored = sessionStorage.getItem('bookshelfiq_results');
     if (!stored) {
       router.push('/');

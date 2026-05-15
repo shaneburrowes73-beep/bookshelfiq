@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
           <div className="flex items-center gap-6 text-sm">
             <a href="/" className="hover:text-amber-400 transition-colors">Home</a>
             <a href="#pricing" className="hover:text-amber-400 transition-colors">Pricing</a>
-            <a href="#" className="bg-amber-500 hover:bg-amber-400 text-white px-4 py-2 rounded-lg font-semibold transition-colors">
+            <a href="/" className="bg-amber-500 hover:bg-amber-400 text-white px-4 py-2 rounded-lg font-semibold transition-colors">
               Get Started Free
             </a>
           </div>
